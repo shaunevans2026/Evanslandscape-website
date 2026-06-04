@@ -2,7 +2,7 @@
 <html lang="en"><head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Gallery | Evans Home &amp; Landscape Services</title>
+<title>Home | Evans Home &amp; Landscape Services</title>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..800&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <style>
@@ -117,7 +117,7 @@ main{min-height:100vh;position:relative;z-index:1;}
 .hero-btns{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;animation:fadeInUp .8s ease .3s both;}
 .btn-primary {
   padding: 16px 36px;
-  background: #00f5d4;
+  background: #3dba57;
   border: none;
   border-radius: 6px;
   color: #0c1c11;
@@ -127,7 +127,7 @@ main{min-height:100vh;position:relative;z-index:1;}
   text-transform: uppercase;
   cursor: pointer;
   transition: all .3s;
-  box-shadow: 0 4px 20px rgba(0, 245, 212, 0.3);
+  box-shadow: 0 4px 20px rgba(61, 186, 87, 0.35);
   display: inline-flex;
   align-items: center;
   gap: 10px;
@@ -135,8 +135,8 @@ main{min-height:100vh;position:relative;z-index:1;}
 }
 .btn-primary:hover {
   transform: translateY(-2px);
-  background: #00e0c2;
-  box-shadow: 0 6px 30px rgba(0, 245, 212, 0.5);
+  background: #31a349;
+  box-shadow: 0 6px 30px rgba(61, 186, 87, 0.5);
 }
 .btn-outline {
   padding: 16px 36px;
@@ -429,7 +429,7 @@ section{padding:100px 40px;}
 .gallery-item:hover .gallery-item-inner img{transform:scale(1.05);}
 .gallery-item-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,0.85),transparent);opacity:0;transition:opacity .3s;display:flex;flex-direction:column;justify-content:flex-end;padding:24px;}
 .gallery-item:hover .gallery-item-overlay{opacity:1;}
-.gallery-item-overlay h4{font-size:.9rem;font-weight:700;margin-bottom:4px;color:#fff;text-decoration:underline;text-underline-offset:3px;}
+.gallery-item-overlay h4{font-size:.9rem;font-weight:700;margin-bottom:4px;}
 .gallery-item-overlay p{font-size:.75rem;color:rgba(255,255,255,0.6);}
 .gallery-badge{position:absolute;top:12px;left:12px;background:linear-gradient(135deg,var(--green),var(--neon));padding:4px 12px;border-radius:20px;font-size:.65rem;font-weight:700;letter-spacing:1px;}
 
@@ -714,10 +714,10 @@ body.dark-theme .footer-logo-img{background:#fff;padding:6px;border-radius:10px;
 }
 
 </style>
-</head>
-<body data-new-gr-c-s-check-loaded="14.1298.0" data-gr-ext-installed="">
+<style type="text/css"></style></head>
+<body data-new-gr-c-s-check-loaded="14.1299.0" data-gr-ext-installed="">
 
-<canvas id="canvas-bg" width="1462" height="668"></canvas>
+<canvas id="canvas-bg" width="1462" height="637"></canvas>
 
 <nav id="mainNav" class="">
   <a class="nav-logo" href="index.html" style="padding:2px 0;">
@@ -725,10 +725,10 @@ body.dark-theme .footer-logo-img{background:#fff;padding:6px;border-radius:10px;
   </a>
   <div class="nav-links">
     <a href="index.html" class="active" id="nav-home">Home</a>
-    <a href="services.html" id="nav-services" class="">Services</a>
+    <a href="services.html" id="nav-services">Services</a>
     <a href="about.html" id="nav-about" class="">About</a>
-    <a href="gallery.html" id="nav-gallery" class="active">Gallery</a>
-    <a href="reviews.html" id="nav-reviews">Reviews</a>
+    <a href="gallery.html" id="nav-gallery">Gallery</a>
+    <a href="reviews.html" id="nav-reviews" class="">Reviews</a>
     <button onclick="toggleTheme()" class="theme-toggle-btn" id="themeToggleDesktop" aria-label="Toggle Theme">
       <i class="fas fa-moon"></i>
     </button>
@@ -750,154 +750,361 @@ body.dark-theme .footer-logo-img{background:#fff;padding:6px;border-radius:10px;
   <a href="book.html" onclick="toggleMenu()">Book Now</a>
 </div>
 
-<div class="gallery-hero">
-    <div style="position:relative;z-index:1;">
-      <div class="section-label" style="justify-content:center;"><i class="fas fa-images"></i> Our Work</div>
-      <h1 class="section-title" style="font-size:clamp(2rem,4vw,3.5rem);margin-bottom:16px;">Project <span>Gallery</span></h1>
-      <p style="max-width:550px;margin:0 auto;line-height:1.8;">Explore our completed projects across North Wales — from roof replacements to landscape transformations.</p>
+<!-- HERO -->
+  <div class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">
+        <span class="hero-main-title" style="font-size: 0.55em; text-transform: uppercase; letter-spacing: 5px; font-weight: 600; color: #3dba57; margin-bottom: 12px; display: block;">Evans Home &amp; Landscape</span>
+        <span class="hero-word-slider" style="height: 1.3em;">
+          <span class="slider-word" style="color: #ffffff; background: none; -webkit-text-fill-color: initial; background-clip: initial;">Roofing</span>
+          <span class="slider-word" style="color: #ffffff; background: none; -webkit-text-fill-color: initial; background-clip: initial;">Landscaping</span>
+          <span class="slider-word" style="color: #ffffff; background: none; -webkit-text-fill-color: initial; background-clip: initial;">Driveways</span>
+          <span class="slider-word" style="color: #ffffff; background: none; -webkit-text-fill-color: initial; background-clip: initial;">Patios</span>
+          <span class="slider-word active" style="color: #ffffff; background: none; -webkit-text-fill-color: initial; background-clip: initial;">Property Care</span>
+        </span>
+      </h1>
+      <p class="hero-sub" style="color: rgba(255, 255, 255, 0.95); font-size: 1.25rem; font-weight: 500; text-shadow: 0 2px 8px rgba(0,0,0,0.5);">Professional slating, garden transformations, Indian sandstone patios, and home maintenance solutions — delivered to perfection all year round.</p>
+      
+      <div class="hero-btns" style="margin-top: 10px;">
+        <a href="#" class="btn-primary" onclick="window.location='book.html'">Get a Price</a>
+        <a href="tel:+447779349100" class="btn-outline"><i class="fas fa-phone-alt" style="color: #00f5d4;"></i>07779 349100101010101010</a>
+      </div>
+      
+      <div class="trustpilot-strip-mini" style="margin-top: 30px; font-size: 0.85rem; font-weight: 600; color: rgba(255,255,255,0.9); display: flex; align-items: center; justify-content: center; gap: 8px;">
+        <span>Rated <strong>Excellent</strong> on</span>
+        <span style="color: #00b67a; display: flex; align-items: center; gap: 4px;"><i class="fas fa-star" style="color: #00b67a;"></i> Trustpilot</span>
+      </div>
     </div>
   </div>
 
-  <div class="gallery-filters">
-    <button class="filter-btn active" onclick="filterGallery('all',this)">All Projects</button>
-    <button class="filter-btn" onclick="filterGallery('roofing',this)">Roofing</button>
-    <button class="filter-btn" onclick="filterGallery('landscaping',this)">Landscaping</button>
-    <button class="filter-btn" onclick="filterGallery('painting',this)">Painting</button>
-    <button class="filter-btn" onclick="filterGallery('cleaning',this)">Cleaning</button>
-    <button class="filter-btn" onclick="filterGallery('driveway',this)">Driveways</button>
+  <!-- TRUST LOGOS STRIP -->
+  <div class="trust-logos-strip">
+    <div class="trust-logo-item" style="color: #1a1a1a; font-style: italic;"><i class="fas fa-tv" style="color: #555;"></i> itv</div>
+    <div class="trust-logo-item" style="color: #00b67a;"><i class="fas fa-star" style="color: #00b67a;"></i> Trustpilot</div>
+    <div class="trust-logo-item" style="color: #0c1c11; font-weight: 900;"><i class="fas fa-check-circle" style="color: #059669;"></i> Checkatrade</div>
+    <div class="trust-logo-item" style="color: #0c1c11; font-size: 0.8rem; font-weight: 800; border: 2px solid #0c1c11; padding: 2px 8px; border-radius: 4px; letter-spacing: 1px;"><i class="fas fa-flag"></i> MADE IN BRITAIN</div>
+    <div class="trust-logo-item" style="color: #e11d48; font-weight: 900;"><i class="fas fa-home" style="color: #e11d48;"></i> LABC</div>
+    <div class="trust-logo-item" style="color: #1d4ed8; font-size: 0.9rem; font-weight: 700;"><i class="fas fa-hammer"></i> MASTER BUILDERS</div>
   </div>
 
-  <div class="gallery-grid" id="galleryGrid">
-
-    <!-- ROOFING -->
-    <div class="gallery-item" data-cat="roofing" style="animation: 0.4s ease 0s 1 normal both running fadeInUp;">
-      <div class="gallery-item-inner"><img src="images/picgg-roofing-scaffolding.jpeg" alt="Roofing Works in Progress – Scaffolding Erected" class=""></div>
-      <div class="gallery-badge">Roofing</div>
-      <div class="gallery-item-overlay"><h4>Roofing Works in Progress</h4><p>Bangor — Scaffolding erected, full roof repair</p></div>
+  <!-- STATS BANNER -->
+  <div class="stats-banner">
+    <div class="hero-stats" style="max-width:1100px;margin:0 auto;width:100%;">
+      <div class="hero-stat"><div class="hero-stat-num" data-count="10">10+</div><div class="hero-stat-label">Years Experience</div></div>
+      <div class="hero-stat"><div class="hero-stat-num" data-count="500">500+</div><div class="hero-stat-label">Jobs Completed</div></div>
+      <div class="hero-stat"><div class="hero-stat-num" data-count="5">5.0</div><div class="hero-stat-label">Star Rating</div></div>
+      <div class="hero-stat"><div class="hero-stat-num" data-count="100">100%</div><div class="hero-stat-label">% Free Estimates</div></div>
     </div>
-
-    <div class="gallery-item" data-cat="roofing" style="animation: 0.4s ease 0s 1 normal both running fadeInUp;">
-      <div class="gallery-item-inner"><img src="images/llpgg-bungalow-roof.jpeg" alt="Bungalow Roof Before Restoration" class=""></div>
-      <div class="gallery-badge">Roofing</div>
-      <div class="gallery-item-overlay"><h4>Bungalow Roof Before Restoration</h4><p>Llandudno Junction — Full roof survey &amp; assessment</p></div>
-    </div>
-
-    <div class="gallery-item" data-cat="roofing" style="animation: 0.4s ease 0s 1 normal both running fadeInUp;">
-      <div class="gallery-item-inner"><img src="images/llpgg-roof-moss.jpeg" alt="Roof Tile &amp; Moss Survey"></div>
-      <div class="gallery-badge">Roofing</div>
-      <div class="gallery-item-overlay"><h4>Roof Tile &amp; Moss Survey</h4><p>Bangor — Ridge tile &amp; moss inspection</p></div>
-    </div>
-
-    <div class="gallery-item" data-cat="roofing" style="animation: 0.4s ease 0s 1 normal both running fadeInUp;">
-      <div class="gallery-item-inner"><img src="images/llpgg-welsh-farmhouse.jpeg" alt="Welsh Farmhouse Slate Roof Replacement" class=""></div>
-      <div class="gallery-badge">Roofing</div>
-      <div class="gallery-item-overlay"><h4>Slate Roof Replacement</h4><p>Gwynedd — Traditional Welsh farmhouse re-slating</p></div>
-    </div>
-
-    <div class="gallery-item" data-cat="roofing" style="animation: 0.4s ease 0s 1 normal both running fadeInUp;">
-      <div class="gallery-item-inner"><img src="images/llpgg-scaffolding-repair.jpeg" alt="Emergency Roof Repair with Scaffolding" class=""></div>
-      <div class="gallery-badge">Roofing</div>
-      <div class="gallery-item-overlay"><h4>Emergency Roof Repair</h4><p>Caernarfon — Scaffold access, slate &amp; ridge work</p></div>
-    </div>
-
-    <div class="gallery-item" data-cat="roofing" style="animation: 0.4s ease 0s 1 normal both running fadeInUp;">
-      <div class="gallery-item-inner"><img src="images/llpgg-bungalow-after.jpeg" alt="Bungalow Fascia &amp; Soffit Renewal Completed"></div>
-      <div class="gallery-badge">Roofing</div>
-      <div class="gallery-item-overlay"><h4>Bungalow Fascia &amp; Soffit Renewal</h4><p>Llandudno Junction — Full fascia replacement complete</p></div>
-    </div>
-
-    <!-- LANDSCAPING -->
-    <div class="gallery-item" data-cat="landscaping" style="animation: 0.4s ease 0s 1 normal both running fadeInUp;">
-      <div class="gallery-item-inner"><img src="images/picgg-garden-decking.jpeg" alt="Artificial Grass &amp; Composite Decking Garden Transformation"></div>
-      <div class="gallery-badge">Landscaping</div>
-      <div class="gallery-item-overlay"><h4>Artificial Grass &amp; Composite Decking</h4><p>Bangor — Full garden transformation</p></div>
-    </div>
-
-    <div class="gallery-item" data-cat="landscaping" style="animation: 0.4s ease 0s 1 normal both running fadeInUp;">
-      <div class="gallery-item-inner"><img src="images/picgg-composite-decking.jpeg" alt="Composite Decking Installation with Mountain Views"></div>
-      <div class="gallery-badge">Landscaping</div>
-      <div class="gallery-item-overlay"><h4>Composite Decking Installation</h4><p>Bethesda — Premium decking with Welsh mountain views</p></div>
-    </div>
-
-    <div class="gallery-item" data-cat="landscaping" style="animation: 0.4s ease 0s 1 normal both running fadeInUp;">
-      <div class="gallery-item-inner"><img src="images/picgg-fencing.jpeg" alt="New Timber Palisade Fencing Installation"></div>
-      <div class="gallery-badge">Landscaping</div>
-      <div class="gallery-item-overlay"><h4>New Timber Palisade Fencing</h4><p>Conwy — Full garden boundary installation</p></div>
-    </div>
-
-    <div class="gallery-item" data-cat="landscaping" style="animation: 0.4s ease 0s 1 normal both running fadeInUp;">
-      <div class="gallery-item-inner"><img src="images/llpgg-garden-fencing.jpeg" alt="Close Board Timber Fencing Garden Privacy"></div>
-      <div class="gallery-badge">Landscaping</div>
-      <div class="gallery-item-overlay"><h4>Close Board Timber Fencing</h4><p>Bangor — Rear garden privacy fencing</p></div>
-    </div>
-
-    <!-- PAINTING -->
-    <div class="gallery-item" data-cat="painting" style="animation: 0.4s ease 0s 1 normal both running fadeInUp;">
-      <div class="gallery-item-inner"><img src="images/picgg-painted-house.jpeg" alt="Victorian Property Full External Painting Transformation"></div>
-      <div class="gallery-badge">Painting</div>
-      <div class="gallery-item-overlay"><h4>Victorian Property Transformation</h4><p>Bangor — Full exterior repaint, dark grey/blue finish</p></div>
-    </div>
-
-    <div class="gallery-item" data-cat="painting" style="animation: 0.4s ease 0s 1 normal both running fadeInUp;">
-      <div class="gallery-item-inner"><img src="images/picgg-white-render.jpeg" alt="Exterior Masonry Painting White Render Finish"></div>
-      <div class="gallery-badge">Painting</div>
-      <div class="gallery-item-overlay"><h4>Exterior Masonry Painting</h4><p>Llandudno — White render &amp; masonry repaint</p></div>
-    </div>
-
-    <div class="gallery-item" data-cat="painting" style="animation: 0.4s ease 0s 1 normal both running fadeInUp;">
-      <div class="gallery-item-inner"><img src="images/llpgg-painting-detail.jpeg" alt="Victorian Property External Painting Close Up Detail"></div>
-      <div class="gallery-badge">Painting</div>
-      <div class="gallery-item-overlay"><h4>External Painting – Detail View</h4><p>Bangor — Victorian property close-up finish</p></div>
-    </div>
-
-    <div class="gallery-item" data-cat="painting" style="animation: 0.4s ease 0s 1 normal both running fadeInUp;">
-      <div class="gallery-item-inner"><img src="images/llpgg-cherry-picker.jpeg" alt="External Painting in Progress Cherry Picker Access"></div>
-      <div class="gallery-badge">Painting</div>
-      <div class="gallery-item-overlay"><h4>External Painting in Progress</h4><p>Bangor — Cherry picker access, large period property</p></div>
-    </div>
-
-    <div class="gallery-item" data-cat="painting" style="animation: 0.4s ease 0s 1 normal both running fadeInUp;">
-      <div class="gallery-item-inner"><img src="images/llpgg-painting-elevation.jpeg" alt="Period Property Side Elevation External Painting Complete"></div>
-      <div class="gallery-badge">Painting</div>
-      <div class="gallery-item-overlay"><h4>Period Property – Side Elevation</h4><p>Bangor — Full exterior painting complete</p></div>
-    </div>
-
-    <!-- DRIVEWAY -->
-    <div class="gallery-item" data-cat="driveway" style="animation: 0.4s ease 0s 1 normal both running fadeInUp;">
-      <div class="gallery-item-inner"><img src="images/picgg-driveway.jpeg" alt="Block Paved Driveway New Installation"></div>
-      <div class="gallery-badge">Driveway</div>
-      <div class="gallery-item-overlay"><h4>Block Paved Driveway</h4><p>Caernarfon — New block paving installation</p></div>
-    </div>
-
-    <!-- CLEANING -->
-    <div class="gallery-item" data-cat="cleaning" style="animation: 0.4s ease 0s 1 normal both running fadeInUp;">
-      <div class="gallery-item-inner"><img src="images/picgg-fascia-soffit.jpeg" alt="New Fascia Soffit and Gutter System Installed"></div>
-      <div class="gallery-badge">Cleaning</div>
-      <div class="gallery-item-overlay"><h4>New Fascia, Soffit &amp; Gutters</h4><p>Bangor — Full UPVC replacement &amp; installation</p></div>
-    </div>
-
-    <div class="gallery-item" data-cat="cleaning" style="animation: 0.4s ease 0s 1 normal both running fadeInUp;">
-      <div class="gallery-item-inner"><img src="images/llpgg-soffit-overhang.jpeg" alt="Flat Roof Soffit Overhang Completed Work"></div>
-      <div class="gallery-badge">Cleaning</div>
-      <div class="gallery-item-overlay"><h4>Flat Roof &amp; Soffit Overhang</h4><p>Bangor — External cleaning &amp; soffit completion</p></div>
-    </div>
-
   </div>
 
-  <div class="leave-review-cta reveal visible">
-    <h3>Have a project you'd like to see here?</h3>
-    <p>We love showcasing our work. Book a free survey and let's create something you'll be proud of.</p>
-    <a href="#" class="btn-primary" onclick="window.location='book.html'"><i class="fas fa-calendar-check"></i> Get a Free Quote</a>
+  <div class="glow-divider"></div>
+
+  <!-- MISSION / INTRO SECTION -->
+  <section class="mission-section">
+    <div style="max-width:1200px;margin:0 auto;">
+      <div class="section-header center reveal visible">
+        <div class="section-label"><i class="fas fa-award"></i> Our Story</div>
+        <h2 class="section-title">Trusted Property Maintenance &amp; Landscaping<br><span>Specialists Across North Wales</span></h2>
+        <p class="section-sub">For over 10 years, delivering high-quality property maintenance, landscaping, and exterior improvement services for homeowners, landlords, and businesses.</p>
+      </div>
+      <div class="mission-cols">
+        <div class="mission-text-col reveal-left visible">
+          <p>For over 10 years, we have been delivering high-quality property maintenance, landscaping, and exterior improvement services for homeowners, landlords, and businesses throughout North Wales.</p>
+          <p>Our experienced team takes pride in transforming and protecting properties with reliable workmanship, attention to detail, and a commitment to customer satisfaction. Whether you're looking to enhance your outdoor space, improve your property's appearance, or carry out essential repairs and maintenance, we offer a complete range of services tailored to your needs.</p>
+          <p>From small repairs to full exterior renovations, we deliver durable, professional results that add value, improve kerb appeal, and help protect your property from the elements.</p>
+          <div class="mission-county-strip">
+            <div class="mission-county"><i class="fas fa-map-marker-alt" style="margin-right:6px;font-size:.7rem;"></i>Anglesey</div>
+            <div class="mission-county"><i class="fas fa-map-marker-alt" style="margin-right:6px;font-size:.7rem;"></i>Gwynedd</div>
+            <div class="mission-county"><i class="fas fa-map-marker-alt" style="margin-right:6px;font-size:.7rem;"></i>Conwy</div>
+            <div class="mission-county"><i class="fas fa-map-marker-alt" style="margin-right:6px;font-size:.7rem;"></i>Denbighshire</div>
+          </div>
+        </div>
+        <div class="mission-pillars reveal-right visible">
+          <div class="pillar-card">
+            <div class="pillar-icon"><i class="fas fa-tools"></i></div>
+            <div class="pillar-text">
+              <h4>Reliable Workmanship</h4>
+              <p>Every job carried out to the highest standard — whether a small repair or a full exterior renovation.</p>
+            </div>
+          </div>
+          <div class="pillar-card">
+            <div class="pillar-icon"><i class="fas fa-search"></i></div>
+            <div class="pillar-text">
+              <h4>Attention to Detail</h4>
+              <p>We take pride in the finish of every project — no shortcuts, no compromises, ever.</p>
+            </div>
+          </div>
+          <div class="pillar-card">
+            <div class="pillar-icon"><i class="fas fa-star"></i></div>
+            <div class="pillar-text">
+              <h4>Customer Satisfaction</h4>
+              <p>Local customers have trusted us for over a decade. Our 5-star reviews speak for themselves.</p>
+            </div>
+          </div>
+          <div class="pillar-card">
+            <div class="pillar-icon"><i class="fas fa-building"></i></div>
+            <div class="pillar-text">
+              <h4>Homeowners, Landlords &amp; Businesses</h4>
+              <p>We work across all property types delivering tailored solutions for every client.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="glow-divider"></div>
+
+  <!-- SERVICES PREVIEW -->
+  <section>
+    <div class="section-header center reveal visible">
+      <div class="section-label"><i class="fas fa-tools"></i> What We Do</div>
+      <h2 class="section-title">Our Core <span>Services</span></h2>
+      <p class="section-sub">From storm damage repairs to complete landscape transformations — we handle it all with expert precision.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card tilt-card reveal visible" style="transform: perspective(1000px) rotateY(0deg) rotateX(0deg) translateY(0px);">
+        <img src="images/picgg-roofing-scaffolding.jpeg" alt="Roofing Work in Progress – North Wales" class="service-card-img">
+        <div class="service-card-content">
+          <div class="service-card-icon-badge"><i class="fas fa-home"></i></div>
+          <h3>Roofing</h3>
+          <p>Slating, tiling, flat roofs, repairs and storm damage. Expert roofers with decades of experience across North Wales.</p>
+        </div>
+      </div>
+      <div class="service-card tilt-card reveal visible" style="transform: perspective(1000px) rotateY(0deg) rotateX(0deg) translateY(0px);">
+        <img src="images/picgg-garden-decking.jpeg" alt="Garden Transformation – Artificial Grass &amp; Composite Decking" class="service-card-img">
+        <div class="service-card-content">
+          <div class="service-card-icon-badge"><i class="fas fa-leaf"></i></div>
+          <h3>Landscaping</h3>
+          <p>Patios, paths, turfing, artificial grass, fencing and full garden transformations tailored to your vision.</p>
+        </div>
+      </div>
+      <div class="service-card tilt-card reveal visible" style="transform: perspective(1000px) rotateY(0deg) rotateX(0deg) translateY(0px);">
+        <img src="images/picgg-fascia-soffit.jpeg" alt="New Fascia, Soffit &amp; Gutter Installation" class="service-card-img">
+        <div class="service-card-content">
+          <div class="service-card-icon-badge"><i class="fas fa-spray-can"></i></div>
+          <h3>External Cleaning</h3>
+          <p>Pressure washing, roof cleaning, gutter cleaning, driveway restoration and sealing for lasting curb appeal.</p>
+        </div>
+      </div>
+      <div class="service-card tilt-card reveal visible" style="transform: perspective(1000px) rotateY(0deg) rotateX(0deg) translateY(0px);">
+        <img src="images/picgg-driveway.jpeg" alt="Block Paved Driveway Installation" class="service-card-img">
+        <div class="service-card-content">
+          <div class="service-card-icon-badge"><i class="fas fa-road"></i></div>
+          <h3>Driveways &amp; Paving</h3>
+          <p>Block paving, driveway renewal, sealing and restoration. Transform your driveway with lasting results.</p>
+        </div>
+      </div>
+      <div class="service-card tilt-card reveal visible" style="transform: perspective(1000px) rotateY(0deg) rotateX(0deg) translateY(0px);">
+        <img src="images/picgg-painted-house.jpeg" alt="Full External House Painting – Stunning Finish" class="service-card-img">
+        <div class="service-card-content">
+          <div class="service-card-icon-badge"><i class="fas fa-paint-roller"></i></div>
+          <h3>External Painting</h3>
+          <p>Full exterior painting services including facias, soffits, render and more. Professional finish every time.</p>
+        </div>
+      </div>
+      <div class="service-card tilt-card reveal visible" style="transform: perspective(1000px) rotateY(0deg) rotateX(0deg) translateY(0px);">
+        <img src="images/picgg-white-render.jpeg" alt="Emergency Property Repairs – Available 24 Hours" class="service-card-img">
+        <div class="service-card-content">
+          <div class="service-card-icon-badge"><i class="fas fa-bolt"></i></div>
+          <h3>24hr Call-Out</h3>
+          <p>Emergency storm damage and urgent repairs available 24 hours a day. We're there when you need us most.</p>
+        </div>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:40px;">
+      <a href="#" class="btn-outline" onclick="window.location='services.html'">View All Services <i class="fas fa-arrow-right"></i></a>
+    </div>
+  </section>
+
+  <div class="glow-divider"></div>
+
+  <!-- FULL SERVICES LIST STRIP -->
+  <div class="svc-list-strip">
+    <div style="max-width:1200px;margin:0 auto;">
+      <div class="section-header center reveal">
+        <div class="section-label"><i class="fas fa-list-ul"></i> Full Range</div>
+        <h2 class="section-title">Everything We <span>Offer</span></h2>
+        <p class="section-sub">A complete range of property maintenance and improvement services — all under one trusted team.</p>
+      </div>
+      <div class="svc-list-grid">
+        <div class="svc-list-item reveal" onclick="window.location='services.html'">
+          <div class="svc-list-icon"><i class="fas fa-paint-roller"></i></div>
+          <div class="svc-list-name">External Painting &amp; Decorating</div>
+        </div>
+        <div class="svc-list-item reveal" onclick="window.location='services.html'">
+          <div class="svc-list-icon"><i class="fas fa-tools"></i></div>
+          <div class="svc-list-name">Fascia, Soffit &amp; Gutter Installations</div>
+        </div>
+        <div class="svc-list-item reveal" onclick="window.location='services.html'">
+          <div class="svc-list-icon"><i class="fas fa-layer-group"></i></div>
+          <div class="svc-list-name">Flat Roof Repairs &amp; Replacements</div>
+        </div>
+        <div class="svc-list-item reveal" onclick="window.location='services.html'">
+          <div class="svc-list-icon"><i class="fas fa-home"></i></div>
+          <div class="svc-list-name">Pitched Roof Repairs &amp; Roofing</div>
+        </div>
+        <div class="svc-list-item reveal" onclick="window.location='services.html'">
+          <div class="svc-list-icon"><i class="fas fa-border-all"></i></div>
+          <div class="svc-list-name">Fencing Installation &amp; Repairs</div>
+        </div>
+        <div class="svc-list-item reveal" onclick="window.location='services.html'">
+          <div class="svc-list-icon"><i class="fas fa-road"></i></div>
+          <div class="svc-list-name">Patios &amp; Paving Solutions</div>
+        </div>
+        <div class="svc-list-item reveal" onclick="window.location='services.html'">
+          <div class="svc-list-icon"><i class="fas fa-leaf"></i></div>
+          <div class="svc-list-name">Landscaping &amp; Garden Improvements</div>
+        </div>
+        <div class="svc-list-item reveal" onclick="window.location='services.html'">
+          <div class="svc-list-icon"><i class="fas fa-wrench"></i></div>
+          <div class="svc-list-name">General Property Maintenance</div>
+        </div>
+      </div>
+    </div>
   </div>
 
+  <div class="glow-divider"></div>
+
+  <!-- WHY CHOOSE US -->
+  <section>
+    <div class="why-grid">
+      <div class="why-visual reveal-left">
+        <div class="why-big-card float1">
+          <div class="why-number">1</div>
+          <div class="why-icon-big"><i class="fas fa-trophy" style="color:#ffd700;"></i></div>
+          <h3>North Wales' Trusted Property Experts</h3>
+          <p>Shaun Evans leads a team of dedicated professionals delivering exceptional workmanship on every project, large or small. With a 5-star Google rating and hundreds of satisfied customers, quality is our guarantee.</p>
+          <div style="margin-top:24px;display:flex;gap:12px;flex-wrap:wrap;">
+            <div class="badge">✓ Fully Insured</div>
+            <div class="badge">✓ Cards Accepted</div>
+            <div class="badge">✓ Free Estimates</div>
+          </div>
+        </div>
+      </div>
+      <div class="why-list reveal-right">
+        <div class="section-label"><i class="fas fa-shield-alt"></i> Why Choose Us</div>
+        <h2 class="section-title" style="margin-bottom:30px;">Built on <span>Trust &amp; Quality</span></h2>
+        <div class="why-item">
+          <div class="why-item-icon"><i class="fas fa-clock"></i></div>
+          <div><h4>24 Hour Call-Out</h4><p>Emergency response available around the clock for urgent repairs and storm damage.</p></div>
+        </div>
+        <div class="why-item">
+          <div class="why-item-icon"><i class="fas fa-file-contract"></i></div>
+          <div><h4>Insurance Work Undertaken</h4><p>We work directly with insurance claims, making storm damage repair hassle-free.</p></div>
+        </div>
+        <div class="why-item">
+          <div class="why-item-icon"><i class="fas fa-credit-card"></i></div>
+          <div><h4>Cards Accepted</h4><p>Flexible payment options including all major debit and credit cards.</p></div>
+        </div>
+        <div class="why-item">
+          <div class="why-item-icon"><i class="fas fa-building"></i></div>
+          <div><h4>Commercial &amp; Domestic</h4><p>Experienced across all property types — from residential homes to commercial premises.</p></div>
+        </div>
+        <div class="why-item">
+          <div class="why-item-icon"><i class="fas fa-search-dollar"></i></div>
+          <div><h4>Free Estimates</h4><p>No-obligation free quotes for all work. Competitive pricing with no hidden costs.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COVERAGE STRIP -->
+  <div class="home-coverage-strip reveal">
+    <div class="cov-label"><i class="fas fa-map-marker-alt"></i> Where We Work</div>
+    <h2 class="cov-title">Serving All of <span style="color:#00f5d4;">North Wales</span></h2>
+    <p class="cov-sub">Based in Bangor — covering homeowners, landlords, and businesses across four counties with dependable service and competitive pricing.</p>
+    <div class="county-tags">
+      <div class="county-tag"><i class="fas fa-map-marker-alt" style="margin-right:8px;opacity:.8;"></i>Anglesey</div>
+      <div class="county-tag"><i class="fas fa-map-marker-alt" style="margin-right:8px;opacity:.8;"></i>Gwynedd</div>
+      <div class="county-tag"><i class="fas fa-map-marker-alt" style="margin-right:8px;opacity:.8;"></i>Conwy</div>
+      <div class="county-tag"><i class="fas fa-map-marker-alt" style="margin-right:8px;opacity:.8;"></i>Denbighshire</div>
+    </div>
+    <a href="#" class="btn-primary" onclick="window.location='book.html'" style="display:inline-flex;"><i class="fas fa-calendar-check"></i> Get a Free Quote</a>
+  </div>
+
+  <!-- TESTIMONIALS -->
+  <div class="testimonial-strip reveal">
+    <div style="text-align:center;margin-bottom:50px;">
+      <div class="section-label" style="justify-content:center;"><i class="fas fa-quote-left"></i> Reviews</div>
+      <h2 class="section-title">What Our <span>Customers Say</span></h2>
+    </div>
+    <div class="testimonials-row">
+      <div class="tcard">
+        <div class="tcard-stars">★★★★★</div>
+        <p class="tcard-text">"I am very happy with the work. Shaun is very reliable and the quality of his work is great. I thoroughly recommend him."</p>
+        <div class="tcard-author"><div class="tcard-avatar">C</div><div><div class="tcard-name">Catherine Tongue</div><div class="tcard-date">5 months ago</div></div></div>
+      </div>
+      <div class="tcard">
+        <div class="tcard-stars">★★★★★</div>
+        <p class="tcard-text">"Shaun and Karl did an amazing job replacing my roof. Turned up on time every day, very polite and have done a really good job — 5 stars, will use again."</p>
+        <div class="tcard-author"><div class="tcard-avatar">L</div><div><div class="tcard-name">Luke Riley</div><div class="tcard-date">5 months ago</div></div></div>
+      </div>
+      <div class="tcard">
+        <div class="tcard-stars">★★★★★</div>
+        <p class="tcard-text">"Very happy with the service. Had ridge tiles replaced after the storm — Shaun and his team did a great job, left with no mess. Easy to deal with. Thankyou."</p>
+        <div class="tcard-author"><div class="tcard-avatar">K</div><div><div class="tcard-name">Krystal Gaskin</div><div class="tcard-date">6 months ago</div></div></div>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:40px;">
+      <a href="#" class="btn-outline" onclick="window.location='reviews.html'">See All Reviews <i class="fas fa-arrow-right"></i></a>
+    </div>
+  </div>
+
+  <!-- CTA BANNER -->
+  <div class="cta-banner reveal">
+    <h2>Ready to Transform Your Property?</h2>
+    <p>Contact us today for a free, no-obligation quotation and discover why local customers across Anglesey, Gwynedd, Conwy, and Denbighshire have trusted us for over a decade.</p>
+    <a href="tel:+447779349100" class="cta-phone"><i class="fas fa-phone-alt"></i> 07779 349100</a>
+    <div class="btns">
+      <a href="#" class="btn-primary" onclick="window.location='book.html'"><i class="fas fa-calendar-check"></i> Book a Free Quote</a>
+      
+    </div>
+  </div>
+
+  <!-- FOOTER -->
   <footer>
     <div class="footer-grid">
-      <div class="footer-brand"><a href="index.html" style="display:inline-block;"><img src="images/evans-logo.jpeg" alt="Evans Home &amp; Landscape Services" class="footer-logo-img"></a><p>Professional property maintenance across North Wales.</p><div class="footer-social"><a href="#" class="social-btn"><i class="fab fa-facebook-f"></i></a><a href="#" class="social-btn"><i class="fab fa-instagram"></i></a><a href="https://share.google/MpDOonRCq1ZSCtp0M" target="_blank" rel="noopener" class="social-btn" title="Evans on Google Business"><i class="fab fa-google"></i></a></div></div>
-      <div class="footer-col"><h4>Pages</h4><a href="index.html">Home</a><a href="services.html">Services</a><a href="about.html">About</a><a href="gallery.html">Gallery</a><a href="reviews.html">Reviews</a><a href="book.html">Book Now</a></div>
-      <div class="footer-col"><h4>Services</h4><a href="#">Roofing</a><a href="#">Landscaping</a><a href="#">Pressure Washing</a><a href="#">Driveways</a><a href="#">Gutter Cleaning</a><a href="#">Painting</a></div>
-      <div class="footer-col"><h4>Contact</h4><p>23 Ffordd Y Castell<br>Bangor, LL57 1SU</p><a href="tel:+447779349100" style="color:var(--neon);margin-top:10px;display:block;">07779 349100</a></div>
+      <div class="footer-brand">
+        <a href="index.html" style="display:inline-block;">
+          <img src="images/evans-logo.jpeg" alt="Evans Home &amp; Landscape Services" class="footer-logo-img">
+        </a>
+        <p>Professional property maintenance across North Wales. Roofing, landscaping, and external cleaning specialists.</p>
+        <div class="footer-social">
+          <a href="#" class="social-btn"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-btn"><i class="fab fa-instagram"></i></a>
+          <a href="https://share.google/MpDOonRCq1ZSCtp0M" target="_blank" rel="noopener" class="social-btn" title="Evans on Google Business"><i class="fab fa-google"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Pages</h4>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About Us</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="book.html">Book Now</a>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <a href="services.html">Roofing</a>
+        <a href="services.html">Landscaping</a>
+        <a href="services.html">Pressure Washing</a>
+        <a href="services.html">Driveways</a>
+        <a href="services.html">Gutter Cleaning</a>
+        <a href="services.html">External Painting</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p>23 Ffordd Y Castell<br>Bangor, LL57 1SU<br>Wales</p>
+        <a href="tel:+447779349100" style="color:var(--neon);margin-top:10px;display:block;">07779 349100</a>
+        
+      </div>
     </div>
-    <div class="footer-bottom"><div>© 2025 Evans Home &amp; Landscape Services.</div><div>Made with <span>♥</span> in North Wales</div></div>
+    <div class="footer-bottom">
+      <div>© 2025 Evans Home &amp; Landscape Services. All rights reserved.</div>
+      <div>Made with <span>♥</span> in North Wales</div>
+    </div>
   </footer>
 
 <script>
@@ -1149,7 +1356,7 @@ function updateThemeIcons() {
 })();
 
 // Page init
-window.addEventListener('load', function(){ initReveal(); });
-</script><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 1342px; top: 0px;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 383px; top: 10px;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 563px; top: 32px;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s;"></div>
+window.addEventListener('load', function(){ animateCounters(); initReveal(); });
+</script><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 676px; top: 9px;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 297px; top: 2px;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 370px; top: 4px;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 307px; top: 1px;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 273px; top: 3px;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 736px; top: 6px;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 337px; top: 3px;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 919px; top: 10px;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 819px; top: 4px;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 1172px; top: 9px;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 484px; top: 5px;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 742px; top: 1px;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 357px; top: 7px;"></div>
 
 <grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></body></html>
