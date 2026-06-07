@@ -2,7 +2,7 @@
 <html lang="en"><head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>About Us | Evans Home &amp; Landscape Services</title>
+<title>Services | Evans Home &amp; Landscape Services</title>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..800&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <style>
@@ -715,7 +715,7 @@ body.dark-theme .footer-logo-img{background:#fff;padding:6px;border-radius:10px;
 
 </style>
 </head>
-<body>
+<body data-new-gr-c-s-check-loaded="14.1298.0" data-gr-ext-installed="">
 
 <canvas id="canvas-bg" width="1366" height="504"></canvas>
 
@@ -725,10 +725,10 @@ body.dark-theme .footer-logo-img{background:#fff;padding:6px;border-radius:10px;
   </a>
   <div class="nav-links">
     <a href="index.html" class="active" id="nav-home">Home</a>
-    <a href="services.html" id="nav-services">Services</a>
-    <a href="about.html" id="nav-about" class="active">About</a>
+    <a href="services.html" id="nav-services" class="active">Services</a>
+    <a href="about.html" id="nav-about" class="">About</a>
     <a href="gallery.html" id="nav-gallery" class="">Gallery</a>
-    <a href="reviews.html" id="nav-reviews">Reviews</a>
+    <a href="reviews.html" id="nav-reviews" class="">Reviews</a>
     <button onclick="toggleTheme()" class="theme-toggle-btn" id="themeToggleDesktop" aria-label="Toggle Theme">
       <i class="fas fa-moon"></i>
     </button>
@@ -750,96 +750,160 @@ body.dark-theme .footer-logo-img{background:#fff;padding:6px;border-radius:10px;
   <a href="book.html" onclick="toggleMenu()">Book Now</a>
 </div>
 
-<div class="about-hero-banner">
+<div class="services-hero">
     <div style="position:relative;z-index:1;">
-      <div class="section-label" style="justify-content:center;"><i class="fas fa-info-circle"></i> Who We Are</div>
-      <h1 class="section-title" style="font-size:clamp(2rem,4vw,3.5rem);margin-bottom:16px;">About <span>Our Business</span></h1>
-      <p style="max-width:550px;margin:0 auto;line-height:1.8;">A family business built on trust, quality craftsmanship, and exceptional service across North Wales.</p>
+      <div class="section-label" style="justify-content:center;"><i class="fas fa-tools"></i> What We Offer</div>
+      <h1 class="section-title" style="font-size:clamp(2rem,4vw,3.5rem);margin-bottom:16px;">Our <span class="">Services</span></h1>
+      <p style="max-width:600px;margin:0 auto;line-height:1.8;" class="">Comprehensive property maintenance across North Wales — from emergency roof repairs to complete garden transformations.</p>
     </div>
   </div>
 
-  <div style="position:relative;overflow:hidden;">
-    <div class="about-hero" style="position:relative;z-index:1;">
-      <div class="about-img-wrap reveal-left visible">
-        <div class="about-img-frame float1">
-          <img src="images/picgg-white-render.jpeg" alt="Exterior Masonry Painting – White Render Finish, North Wales">
-        </div>
-        <div class="about-img-badge">
-          <div class="num">10+</div>
-          <div class="txt">Years Experience</div>
-        </div>
-      </div>
-      <div class="about-content reveal-right visible">
-        <div class="section-label"><i class="fas fa-info-circle"></i> About Us</div>
-        <h2 class="section-title">A Family Business <span>Built on Excellence</span></h2>
-        <p>Evans Home and Landscape Services is a family run company based in Bangor, Wales, specialising in home improvement, roofing, landscaping and external cleaning services.</p>
-        <p>We aim to bring professionalism and quality workmanship at competitive prices. With a wide range of knowledge and experience, we help bring your ideas to reality — whether it's a block paved driveway or an area of the property that could do with refreshing or repairing.</p>
-        <p>We're happy to offer advice if you're looking for some inspiration, and all quotations are completely free with no obligation.</p>
-        <div class="owner-card">
-          <div class="owner-avatar">S</div>
-          <div class="owner-info">
-            <h4>Shaun Evans — Owner &amp; Lead Tradesman</h4>
-            <p>North Wales</p>
-          </div>
-        </div>
-        <div class="badge-row">
-          <div class="badge">✓ Fully Insured</div>
-          <div class="badge">✓ 24hr Call-Out</div>
-          <div class="badge">✓ Cards Accepted</div>
-          <div class="badge">✓ Free Estimates</div>
-          <div class="badge">✓ Insurance Work</div>
-          <div class="badge">✓ Commercial &amp; Domestic</div>
-        </div>
+  <div class="services-full-grid">
+    <div class="svc-card reveal visible">
+      <img src="images/picgg-roofing-scaffolding.jpeg" alt="Slating &amp; Tiling – Professional Roof Replacement" class="svc-card-img">
+      <div class="svc-card-content">
+        <div class="svc-card-icon-badge"><i class="fas fa-home"></i></div>
+        <h3>Slating &amp; Tiling</h3>
+        <p>Professional slate and tile installation, replacement and repair. Traditional and modern techniques for all roof types.</p>
+        <ul class="svc-features">
+          <li>New slate installations</li><li>Tile replacement &amp; repairs</li><li>Ridge &amp; hip tiles</li><li>Lead work &amp; flashings</li>
+        </ul>
       </div>
     </div>
+    <div class="svc-card reveal visible">
+      <img src="images/picgg-white-render.jpeg" alt="Flat Roof Repair &amp; Replacement" class="svc-card-img">
+      <div class="svc-card-content">
+        <div class="svc-card-icon-badge"><i class="fas fa-layer-group"></i></div>
+        <h3>Flat Roofs</h3>
+        <p>Specialist flat roof installation and repair using modern materials built to last. EPDM, felt and GRP solutions.</p>
+        <ul class="svc-features">
+          <li>EPDM rubber roofing</li><li>GRP fibreglass systems</li><li>Felt &amp; torched systems</li><li>Flat roof conversions</li>
+        </ul>
+      </div>
+    </div>
+    <div class="svc-card reveal visible">
+      <img src="images/llpgg-scaffolding-repair.jpeg" alt="Storm Damage Repair – Scaffold Access &amp; Emergency Response" class="svc-card-img">
+      <div class="svc-card-content">
+        <div class="svc-card-icon-badge"><i class="fas fa-bolt"></i></div>
+        <h3>Storm Damage Repairs</h3>
+        <p>24-hour emergency call-out for storm damage. Rapid response to protect your property and prevent further damage.</p>
+        <ul class="svc-features">
+          <li>24hr emergency call-out</li><li>Insurance work undertaken</li><li>Temporary weatherproofing</li><li>Full damage assessment</li>
+        </ul>
+      </div>
+    </div>
+    <div class="svc-card reveal visible">
+      <img src="images/picgg-fencing.jpeg" alt="New Timber Palisade Fencing Installation" class="svc-card-img">
+      <div class="svc-card-content">
+        <div class="svc-card-icon-badge"><i class="fas fa-border-all"></i></div>
+        <h3>Fencing</h3>
+        <p>Supply and installation of all fence types. From timber panels to concrete posts — secure, stylish boundary solutions.</p>
+        <ul class="svc-features">
+          <li>Timber panel fencing</li><li>Concrete post &amp; gravel board</li><li>Close board fencing</li><li>Fence repairs</li>
+        </ul>
+      </div>
+    </div>
+    <div class="svc-card reveal visible">
+      <img src="images/llpgg-roof-moss.jpeg" alt="Roof Moss &amp; Tile Cleaning – Before Works" class="svc-card-img">
+      <div class="svc-card-content">
+        <div class="svc-card-icon-badge"><i class="fas fa-broom"></i></div>
+        <h3>Roof Cleaning</h3>
+        <p>Professional moss and algae removal to extend your roof's lifespan and restore its appearance. Biocide treatments included.</p>
+        <ul class="svc-features">
+          <li>Moss &amp; lichen removal</li><li>Biocide treatment</li><li>Pressure washing</li><li>Ridge pointing</li>
+        </ul>
+      </div>
+    </div>
+    <div class="svc-card reveal visible">
+      <img src="images/picgg-fascia-soffit.jpeg" alt="New Gutters, Fascia &amp; Soffit Installation" class="svc-card-img">
+      <div class="svc-card-content">
+        <div class="svc-card-icon-badge"><i class="fas fa-tools"></i></div>
+        <h3>Gutter Cleaning</h3>
+        <p>Clear blocked gutters and downpipes to prevent water damage. Full inspection and repair service available.</p>
+        <ul class="svc-features">
+          <li>Manual gutter clearance</li><li>Downpipe jetting</li><li>Gutter repairs &amp; sealing</li><li>Fascia &amp; soffit checks</li>
+        </ul>
+      </div>
+    </div>
+    <div class="svc-card reveal visible">
+      <img src="images/picgg-composite-decking.jpeg" alt="Composite Decking &amp; Patio Installation – North Wales" class="svc-card-img">
+      <div class="svc-card-content">
+        <div class="svc-card-icon-badge"><i class="fas fa-road"></i></div>
+        <h3>Patios &amp; Paths</h3>
+        <p>Beautiful patios and pathways in natural stone, porcelain, block paving and concrete. Designed to last a lifetime.</p>
+        <ul class="svc-features">
+          <li>Natural stone patios</li><li>Porcelain slabs</li><li>Block paving</li><li>Concrete paths</li>
+        </ul>
+      </div>
+    </div>
+    <div class="svc-card reveal visible">
+      <img src="images/llpgg-garden-fencing.jpeg" alt="Fresh Lawn Turfing &amp; Garden Boundary Work" class="svc-card-img">
+      <div class="svc-card-content">
+        <div class="svc-card-icon-badge"><i class="fas fa-seedling"></i></div>
+        <h3>Turfing</h3>
+        <p>Fresh lawn installation using premium turf. Full ground preparation, levelling and laying for a perfect finish.</p>
+        <ul class="svc-features">
+          <li>Premium turf supply</li><li>Ground preparation</li><li>Levelling &amp; grading</li><li>Aftercare advice</li>
+        </ul>
+      </div>
+    </div>
+    <div class="svc-card reveal visible">
+      <img src="images/picgg-garden-decking.jpeg" alt="Artificial Grass Installation – Low Maintenance Garden" class="svc-card-img">
+      <div class="svc-card-content">
+        <div class="svc-card-icon-badge"><i class="fas fa-leaf"></i></div>
+        <h3>Artificial Grass</h3>
+        <p class="">Low-maintenance artificial grass installation. Perfect for families, pets and anyone wanting a year-round green garden.</p>
+        <ul class="svc-features">
+          <li class="">Premium artificial turf</li><li class="">Full base preparation</li><li class="">Edging &amp; joining</li><li class="">10-year guarantees</li>
+        </ul>
+      </div>
+    </div>
+    <div class="svc-card reveal visible">
+      <img src="images/picgg-painted-house.jpeg" alt="External House Painting – Full Property Transformation" class="svc-card-img">
+      <div class="svc-card-content">
+        <div class="svc-card-icon-badge"><i class="fas fa-paint-roller"></i></div>
+        <h3>External Painting</h3>
+        <p>Professional exterior painting of all surfaces including render, masonry, facias, soffits and gutters.</p>
+        <ul class="svc-features">
+          <li>Masonry &amp; render painting</li><li>Fascia &amp; soffit painting</li><li>UPVC spraying</li><li>Weather-resistant coatings</li>
+        </ul>
+      </div>
+    </div>
+    <div class="svc-card reveal visible">
+      <img src="images/picgg-driveway.jpeg" alt="Block Paved Driveway Renewal &amp; Installation" class="svc-card-img">
+      <div class="svc-card-content">
+        <div class="svc-card-icon-badge"><i class="fas fa-car"></i></div>
+        <h3 class="">Driveway Renewal</h3>
+        <p class="">Complete driveway restoration and sealing. Resin bound, tarmac, block paving and gravel driveway specialists.</p>
+        <ul class="svc-features">
+          <li class="">Resin bound driveways</li><li class="">Block paving</li><li class="">Tarmac resurfacing</li><li class="">Driveway sealing</li>
+        </ul>
+      </div>
+    </div>
+    <div class="svc-card reveal visible">
+      <img src="images/ed-9j4AAQSkZJRgAB.jpg" alt="External Cleaning &amp; Pressure Washing Service" class="svc-card-img">
+      <div class="svc-card-content">
+        <div class="svc-card-icon-badge"><i class="fas fa-water"></i></div>
+        <h3 class="">Pressure Washing</h3>
+        <p class="">High-pressure cleaning for patios, driveways, paths, decking and more. Restore surfaces to like-new condition.</p>
+        <ul class="svc-features">
+          <li class="">Patio &amp; path cleaning</li><li class="">Driveway restoration</li><li class="">Decking &amp; fencing</li><li class="">Commercial cleaning</li>
+        </ul>
+      </div>
+    </div>
   </div>
 
-  <div class="glow-divider"></div>
 
-  <!-- VALUES -->
-  <section style="padding-top:80px;padding-bottom:40px;">
-    <div class="section-header center reveal visible">
-      <div class="section-label"><i class="fas fa-heart"></i> Our Values</div>
-      <h2 class="section-title">What We <span>Stand For</span></h2>
-    </div>
-  </section>
-  <div class="values-grid">
-    <div class="value-card reveal visible"><i class="fas fa-medal"></i><h3>Quality Craftsmanship</h3><p>Every job, big or small, receives our full attention and the same high standard of finish we'd want on our own homes.</p></div>
-    <div class="value-card reveal visible"><i class="fas fa-handshake"></i><h3>Reliability</h3><p>We turn up when we say we will and complete work to schedule. Your time matters to us.</p></div>
-    <div class="value-card reveal visible"><i class="fas fa-pound-sign"></i><h3>Competitive Pricing</h3><p>Fair, transparent pricing with no hidden extras. You'll always know what you're paying before we start.</p></div>
-    <div class="value-card reveal visible"><i class="fas fa-comments"></i><h3>Clear Communication</h3><p>We keep you informed at every stage of your project, from quote through to completion.</p></div>
-    <div class="value-card reveal visible"><i class="fas fa-broom"></i><h3>Clean &amp; Tidy</h3><p>We leave your property exactly as we found it — or better. No mess, no hassle.</p></div>
-    <div class="value-card reveal visible"><i class="fas fa-users"></i><h3>Family Values</h3><p>As a family business, we treat every customer's home as if it were our own. Trust and respect are everything.</p></div>
-  </div>
-
-  <!-- COVERAGE -->
-  <div class="coverage-section">
-    <div class="section-header center reveal visible">
-      <div class="section-label"><i class="fas fa-map-marker-alt"></i> Coverage</div>
-      <h2 class="section-title">Areas We <span>Cover</span></h2>
-      <p class="section-sub">Based in Bangor, we serve communities across North Wales and beyond.</p>
-    </div>
-    <div class="coverage-grid">
-      <div class="coverage-tag reveal visible">Bangor</div>
-      <div class="coverage-tag reveal visible">Llandudno</div>
-      <div class="coverage-tag reveal visible">Caernarfon</div>
-      <div class="coverage-tag reveal visible">Llandudno Junction</div>
-      <div class="coverage-tag reveal visible">Conwy</div>
-      <div class="coverage-tag reveal visible">Bethesda</div>
-      <div class="coverage-tag reveal visible">Menai Bridge</div>
-      <div class="coverage-tag reveal visible">Gwynedd</div>
-      <div class="coverage-tag reveal visible">Colwyn Bay</div>
-      <div class="coverage-tag reveal visible">Abergele</div>
-      <div class="coverage-tag reveal visible">Holyhead</div>
-      <div class="coverage-tag reveal visible">All of North Wales</div>
-    </div>
-  </div>
-
+  <!-- FOOTER (shared partial) -->
   <footer>
     <div class="footer-grid">
-      <div class="footer-brand"><a href="index.html" style="display:inline-block;"><img src="images/evans-logo.jpeg" alt="Evans Home &amp; Landscape Services" class="footer-logo-img"></a><p>Professional property maintenance across North Wales.</p><div class="footer-social"><a href="#" class="social-btn"><i class="fab fa-facebook-f"></i></a><a href="#" class="social-btn"><i class="fab fa-instagram"></i></a><a href="https://share.google/MpDOonRCq1ZSCtp0M" target="_blank" rel="noopener" class="social-btn" title="Evans on Google Business"><i class="fab fa-google"></i></a></div></div>
+      <div class="footer-brand">
+        <a href="index.html" style="display:inline-block;"><img src="images/evans-logo.jpeg" alt="Evans Home &amp; Landscape Services" class="footer-logo-img"></a>
+        <p>Professional property maintenance across North Wales. Roofing, landscaping, and external cleaning specialists.</p>
+        <div class="footer-social"><a href="#" class="social-btn"><i class="fab fa-facebook-f"></i></a><a href="#" class="social-btn"><i class="fab fa-instagram"></i></a><a href="https://share.google/MpDOonRCq1ZSCtp0M" target="_blank" rel="noopener" class="social-btn" title="Evans on Google Business"><i class="fab fa-google"></i></a></div>
+      </div>
       <div class="footer-col"><h4>Pages</h4><a href="index.html">Home</a><a href="services.html">Services</a><a href="about.html">About</a><a href="gallery.html">Gallery</a><a href="reviews.html">Reviews</a><a href="book.html">Book Now</a></div>
-      <div class="footer-col"><h4>Services</h4><a href="#">Roofing</a><a href="#">Landscaping</a><a href="#">Pressure Washing</a><a href="#">Driveways</a><a href="#">Gutter Cleaning</a><a href="#">Painting</a></div>
+      <div class="footer-col"><h4>Services</h4><a href="#" class="">Roofing</a><a href="#" class="">Landscaping</a><a href="#">Pressure Washing</a><a href="#" class="">Driveways</a><a href="#">Gutter Cleaning</a><a href="#">External Painting</a></div>
       <div class="footer-col"><h4>Contact</h4><p class="">shaunevans2010@hotmail.co.uk<br></p><a href="tel:+447779349100" style="color:var(--neon);margin-top:10px;display:block;">07779 349100</a></div>
     </div>
     <div class="footer-bottom"><div>© 2025 Evans Home &amp; Landscape Services.</div><div>Made with <span>♥</span> in North Wales</div></div>
@@ -1095,6 +1159,7 @@ function updateThemeIcons() {
 
 // Page init
 window.addEventListener('load', function(){ initReveal(); });
-</script><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 1081px; top: 7px;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s;"></div>
+</script><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 978px; top: 11px;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 514px; top: 24px;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 1066px; top: 21px;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 1265px; top: 3px;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 1041px; top: 12px;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 297px; top: 6px;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 1257px; top: 17px;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 1172px; top: 23px;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 1082px; top: 28px;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 989px; top: 18px;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 998px; top: 2px;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 1218px; top: 41px;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 1330px; top: 9px;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 1104px; top: 2px;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 1277px; top: 11px;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 1226px; top: 39px;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 945px; top: 26px;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 1164px; top: 51px;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 1255px; top: 7px;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 1095px; top: 16px;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 1059px; top: 38px;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 1234px; top: 0px;"></div>
 
-</body></html>
+
+<grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></body></html>
