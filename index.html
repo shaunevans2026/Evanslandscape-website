@@ -758,8 +758,8 @@ body.dark-theme .footer-logo-img{background:#fff;padding:6px;border-radius:10px;
         <span class="hero-word-slider" style="height: 1.3em;">
           <span class="slider-word" style="color: #ffffff; background: none; -webkit-text-fill-color: initial; background-clip: initial;">Roofing</span>
           <span class="slider-word" style="color: #ffffff; background: none; -webkit-text-fill-color: initial; background-clip: initial;">Landscaping</span>
-          <span class="slider-word exit" style="color: #ffffff; background: none; -webkit-text-fill-color: initial; background-clip: initial;">Driveways</span>
-          <span class="slider-word active" style="color: #ffffff; background: none; -webkit-text-fill-color: initial; background-clip: initial;">Property Care</span>
+          <span class="slider-word" style="color: #ffffff; background: none; -webkit-text-fill-color: initial; background-clip: initial;">Driveways</span>
+          <span class="slider-word" style="color: #ffffff; background: none; -webkit-text-fill-color: initial; background-clip: initial;">Property Care</span>
           <span class="slider-word" style="color: #ffffff; background: none; -webkit-text-fill-color: initial; background-clip: initial;">Patios</span>
         </span>
       </h1>
@@ -1296,9 +1296,14 @@ if(window.matchMedia('(hover:hover)').matches){
 }
 
 // ========== HERO WORD SLIDER ==========
-let currentWordIndex = 0;
 const words = document.querySelectorAll('.slider-word');
 const wordCount = words.length;
+// Reset any stale active/exit classes left over from a snapshotted editor state,
+// then start cleanly from word[0]. Without this, multiple words can be "active"
+// simultaneously after a page reload, causing them to visually stack.
+words.forEach(w => w.classList.remove('active', 'exit'));
+let currentWordIndex = 0;
+if(wordCount > 0) words[0].classList.add('active');
 
 function rotateWords() {
   const currentWord = words[currentWordIndex];
