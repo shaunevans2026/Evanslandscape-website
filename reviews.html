@@ -1022,6 +1022,9 @@ let currentWordIndex = 0;
 const words = document.querySelectorAll('.slider-word');
 const wordCount = words.length;
 
+// Reset stale animation classes before starting slider (safe on every load)
+words.forEach(w => w.classList.remove('active', 'exit'));
+if(wordCount > 0) words[0].classList.add('active');
 function rotateWords() {
   const currentWord = words[currentWordIndex];
   currentWord.classList.remove('active');
