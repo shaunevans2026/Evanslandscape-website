@@ -716,9 +716,9 @@ body.dark-theme .footer-logo-img{background:#fff;padding:6px;border-radius:10px;
 </head>
 <body>
 
-<canvas id="canvas-bg" width="1462" height="668"></canvas>
+<canvas id="canvas-bg" width="1366" height="504"></canvas>
 
-<nav id="mainNav">
+<nav id="mainNav" class="scrolled">
   <a class="nav-logo" href="index.html" style="padding:2px 0;">
     <img src="images/evans-logo.jpeg" alt="Evans Home &amp; Landscape Services" class="nav-logo-img">
   </a>
@@ -783,25 +783,25 @@ body.dark-theme .footer-logo-img{background:#fff;padding:6px;border-radius:10px;
   </div>
 
   <div class="reviews-grid">
-    <div class="review-card reveal">
+    <div class="review-card reveal visible">
       <div class="review-header"><div class="review-author"><div class="review-avatar">C</div><div><div class="review-name">Catherine Tongue</div><div class="review-meta">1 review · 3 photos</div></div></div><i class="fab fa-google review-google"></i></div>
       <div class="review-stars">★★★★★</div>
       <p class="review-text">"I am very happy with the work. Shaun is very reliable and the quality of his work is great. I thoroughly recommend him."</p>
       <div class="review-date">5 months ago · Artificial Grass Installation</div>
     </div>
-    <div class="review-card reveal">
+    <div class="review-card reveal visible">
       <div class="review-header"><div class="review-author"><div class="review-avatar">L</div><div><div class="review-name">Luke Riley</div><div class="review-meta">1 review</div></div></div><i class="fab fa-google review-google"></i></div>
       <div class="review-stars">★★★★★</div>
       <p class="review-text">"Shaun and Karl did an amazing job replacing my roof. Turned up on time every day, were very polite and have done a really good job. 5 stars — will use again in future."</p>
       <div class="review-date">5 months ago · Roof Replacement</div>
     </div>
-    <div class="review-card reveal">
+    <div class="review-card reveal visible">
       <div class="review-header"><div class="review-author"><div class="review-avatar">K</div><div><div class="review-name">Krystal Gaskin</div><div class="review-meta">1 review</div></div></div><i class="fab fa-google review-google"></i></div>
       <div class="review-stars">★★★★★</div>
       <p class="review-text">"Very happy with the service. Had ridge tiles replaced after the storm — Shaun and his team did a great job, left with no mess, easy to deal with. Thankyou."</p>
       <div class="review-date">6 months ago · Storm Damage Repair</div>
     </div>
-    <div class="review-card reveal">
+    <div class="review-card reveal visible">
       <div class="review-header"><div class="review-author"><div class="review-avatar">G</div><div><div class="review-name">Garry Laine</div><div class="review-meta">Local Guide · 27 reviews</div></div></div><i class="fab fa-google review-google"></i></div>
       <div class="review-stars">★★★★★</div>
       <p class="review-text">"Hedge cutting... they were excellent, thank you Shaun. Looking forward to having you return to do other jobs."</p>
@@ -809,7 +809,7 @@ body.dark-theme .footer-logo-img{background:#fff;padding:6px;border-radius:10px;
     </div>
   </div>
 
-  <div class="leave-review-cta reveal">
+  <div class="leave-review-cta reveal visible">
     <h3>Had work done by us recently?</h3>
     <p>We'd love to hear your feedback. Leaving a Google review helps other homeowners in North Wales find reliable tradespeople.</p>
     <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
@@ -822,8 +822,9 @@ body.dark-theme .footer-logo-img{background:#fff;padding:6px;border-radius:10px;
     <div class="footer-grid">
       <div class="footer-brand"><a href="index.html" style="display:inline-block;"><img src="images/evans-logo.jpeg" alt="Evans Home &amp; Landscape Services" class="footer-logo-img"></a><p>Professional property maintenance across North Wales.</p><div class="footer-social"><a href="#" class="social-btn"><i class="fab fa-facebook-f"></i></a><a href="#" class="social-btn"><i class="fab fa-instagram"></i></a><a href="https://share.google/MpDOonRCq1ZSCtp0M" target="_blank" rel="noopener" class="social-btn" title="Evans on Google Business"><i class="fab fa-google"></i></a></div></div>
       <div class="footer-col"><h4>Pages</h4><a href="index.html">Home</a><a href="services.html">Services</a><a href="about.html">About</a><a href="gallery.html">Gallery</a><a href="reviews.html">Reviews</a><a href="book.html">Book Now</a></div>
-      <div class="footer-col"><h4>Services</h4><a href="#">Roofing</a><a href="#">Landscaping</a><a href="#">Pressure Washing</a><a href="#">Driveways</a><a href="#">Gutter Cleaning</a><a href="#">Painting</a></div>
-      <div class="footer-col"><h4>Contact</h4><p>23 Ffordd Y Castell<br>Bangor, LL57 1SU</p><a href="tel:+447779349100" style="color:var(--neon);margin-top:10px;display:block;">07779 349100</a></div>
+      <div class="footer-col"><h4>Services</h4><a href="#" class="">Roofing</a><a href="#">Landscaping</a><a href="#" class="">Pressure Washing</a><a href="#" class="">Driveways</a><a href="#">Gutter Cleaning</a><a href="#">Painting</a></div>
+      <div class="footer-col"><h4 class="">Contact</h4><p class="">Shaun
+shaunevans2010@hotmail.co.uk<br></p><a href="tel:+447779349100" style="color:var(--neon);margin-top:10px;display:block;">07779 349100</a></div>
     </div>
     <div class="footer-bottom"><div>© 2025 Evans Home &amp; Landscape Services.</div><div>Made with <span>♥</span> in North Wales</div></div>
   </footer>
@@ -1081,6 +1082,6 @@ function updateThemeIcons() {
 
 // Page init
 window.addEventListener('load', function(){ initReveal(); });
-</script><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 1339px; top: 41px;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 1076px; top: 39px;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s;"></div>
+</script><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 982px; top: 52px;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 1339px; top: 41px;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s; left: 1076px; top: 39px;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s;"></div><div id="cursor-glow" style="position: fixed; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 255, 136, 0.4), transparent); pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: transform 0.1s;"></div>
 
 </body></html>
